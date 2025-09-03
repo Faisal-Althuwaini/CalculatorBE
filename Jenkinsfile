@@ -45,7 +45,7 @@ pipeline {
 		success {
 			echo 'Pipeline completed successfully! Test2    '
 			mail to: 'fynth2@gmail.com, saalemx19@gmail.com, abdullahghomaidah@gmail.com',
-            subject: "SUCCESS: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'",
+            subject: "Zo6: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'",
             body: "Good news! The build succeeded.\nCheck the build details here: ${env.BUILD_URL}"
 
 		}
